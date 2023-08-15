@@ -1,55 +1,82 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Mi primera pagina web</title>
-    </head>
-    <body>
-        <a href="./galeria.html">Galeria de Redes Sociales</a>
-        <h1>Mi primer titulo</h1>
-        <h2>Mi primer titulo</h2>
-        <h3>Mi primer titulo</h3>
-        <h4>Mi primer titulo</h4>
-        <h5>Mi primer titulo</h5>
-        <h6>Mi primer titulo</h6>
-        <p>
-            <strong>
-               <i>
-                <u> 
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vitae quasi sint quos, adipisci voluptatem voluptates. Repudiandae distinctio voluptate consectetur. Laborum dolores molestiae sequi quidem magni autem quod quas laudantium!    
-                </u>
-               </i> 
-            </strong>
-        </p>
-        <img 
-            src="https://www.udep.edu.pe/hoy/wp-content/uploads/sites/49/2019/05/avengers-endgame-poster-gq-mexico.jpg"
-            alt="Los Vengadores"
-            width="200"
-            height="300"
-        >
-        <p>
-            <img src="./images/comida.jpg" alt="comida" width="200" height="200">    
-        </p>
-        <!--Contenedor-->
-        <div style="border: solid">
-            <h1 style="border: solid red;">Mi primer div</h1>
-            <p style="border: solid blue;">Esto es un parrrafo</p>
-            <img style="border: solid green;" src="./images/comida.jpg" alt="" width="100">
-            <img style="border: solid blueviolet;" src="./images/comida.jpg" alt="" width="100">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Web</title>
+</head>
+<style>
+   * {
+      background-color: #111827;
+      color: #ffff;
+      font-family: Arial, sans-serif;
+   } 
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <p> 👋 Hola soy</p>
+            <h1>Javier</h1>
+            <p>Desarrollador Web</p>
         </div>
-
-        <section>
-            <div>
-               <a href="https://facebook.com" style="border: solid;">
-                <img src="https://cdn.icon-icons.com/icons2/1238/PNG/512/weblink_83665.png" alt="" width="20">  
-                Enlace a Facebook  
-               </a>
-            </div>
-        </section>
-
-        <!--Galeria de redes sociales-->
-        <section>
-
-        </section>
-    </body>
+        <div>
+            <img src="./images/landing/coding.svg" alt="">
+        </div>
+    </section>
+    <section>
+        <h2>Proyectos</h2>
+        <div>
+           <div>
+             <img src="./images/proyects/mailbox.svg" alt="">
+             <img src="./images/proyects/viajes.svg" alt="">
+           </div>
+           <div>
+             <img src="./images/proyects/todolist.svg" alt="">
+             <img src="./images/proyects/json.svg" alt="">
+           </div>
+        </div>
+    </section>
+    <section>
+        <h2>Habilidades</h2>
+        <div>
+          <span><img src="./images/techs/docker.svg" alt="" width="40" height="41">Docker</span>
+          <span><img src="./images/techs/html.svg" alt="" width="40" height="41">Html</span>
+          <span><img src="./images/techs/typescript.svg" alt="">Typescript</span>
+          <span><img src="./images/techs/mongodb.svg" alt="" width="40" height="41">MongoDB</span>
+        </div>
+        <div>
+          <span><img src="./images/techs/git.svg" alt="" width="40" height="41">Git</span>
+          <span><img src="./images/techs/css.svg" alt="" width="40" height="41">CSS</span>
+          <span><img src="./images/techs/reactjs.svg" alt="">Reactjs</span>
+          <span><img src="./images/techs/mysql.svg" alt="">Mysql</span>
+        </div>
+        <div>
+          <span><img src="./images/techs/figma.svg" alt="">Figma</span>
+          <span><img src="./images/techs/tailwinf.svg" alt="">Tailwind</span>
+          <span><img src="./images/techs/vue.svg" alt="">Vue</span>
+          <span><img src="./images/techs/pgsql.svg" alt="">Pgsql</span>
+        </div>
+        <div>
+          <span><img src="./images/techs/node-js.svg" alt="">Node-js</span>
+          <span><img src="./images/techs/javascript.svg" alt="">Javascript</span>
+          <span><img src="./images/techs/nestjs.svg" alt="">Nestjs</span>
+        </div>
+    </section>
+    <section>
+        <h2>Contacto</h2>
+        <div>
+          <img src="./images/contacts/linkedin.svg" alt="">
+          <img src="./images/contacts/gitHub.svg"" alt="">
+          <img src="./images/contacts/outlook.svg"" alt="">
+        </div>
+    </section>
+</body>
 </html>
