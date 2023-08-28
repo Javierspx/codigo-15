@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+body {
+    font-family: "Outfit", sans-serif;
+  }
+.container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+    background-color: hsl(217, 54%, 11%);   
+    /* border: solid;
+    border-color: white; */
+}
+.box {
+    /* display: flex;
+    justify-content: left;
+    align-items: left; */
+    background-color:hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 25px;
+    width: 20%;
+    text-align: left;
+}
+.img1 {
+    width: 100%;
+    border-radius: 16px;
+}
+.title {
+    margin-top: 25px;
+    color: hsl(0, 0%, 100%);
+}
+.description {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 150px; */
+}
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    /* height: 70px; */
+    /* margin-bottom: 15px; */
+}
+.box3 {
+    display: flex;
+    align-items: center;
+    /* margin-top: 15px; */
+    border-top: solid;
+    border-color: hsl(215, 32%, 27%);
+    border-width: 0.1px;
+    height: 80px;
+}
+.p2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+}
+.p3 {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;    
+}
+.p4 {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    margin-left: 20px;      
+}
+.p5 {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    margin-left: 5px;       */
+}
+.img2 {
+    height: 40px;
+    width: 40px;
+    border: solid;
+    border-radius: 40px;
+    border-color: white;
+}
+.img3 {
+    height: 20px;
+    width: 10px;
+}
+.img4 {
+    height: 20px;
+    width: 20px;
+}

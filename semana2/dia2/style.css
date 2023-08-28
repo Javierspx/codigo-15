@@ -1,0 +1,87 @@
+h1 {
+    color: blue;
+}
+.selector-clase {
+    color: red;
+}
+#selector-id {
+    color: yellowgreen;
+    font-size: 24px;
+}
+button {
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    transition: all 1s ease;
+}
+
+button:hover {
+    background-color: green;
+}
+.pseudo-clase-hover {
+    font-size: 20px;
+} 
+.pseudo-clase-hover:hover {
+    color: green;
+    cursor: pointer;
+}
+.pseudo-clase-link-hover {
+    text-decoration: none;
+}
+.pseudo-clase-link-hover:hover {
+    text-decoration: underline;
+}
+.pseudo-clase-link-hover:active {
+    font-size: 40px;
+    color: orange;
+}
+.pseudo-clase-link-hover:focus {
+    color: violet;
+    border: 2 px dotted #4444;
+}
+input:active {
+    background-color:yellow
+}
+/* input:focus {
+    background-color:blue
+} */
+/* pseudoclase: Primer y ultimo hijo */
+.hijos-pseudo p:first-child {
+    background-color: red;
+}
+.hijos-pseudo p:last-child {
+    background-color: blue;
+}
+.hijos-pseudo p:nth-child(3) {
+    background-color:orange ;
+}
+.hijos-pseudo p:nth-child(2n-1) {
+    background-color:green ;
+}
+/* before */
+.prueba-before::before {
+    content:'hola';
+    color: red;
+    font-size: 20px;
+    width: 12px;
+    height: 12px;
+    background-color: yellow;
+    padding: 6px;
+}
+.prueba-after::after {
+    content:'hola';
+    color: yellow;
+    font-size: 20px;
+    width: 12px;
+    height: 12px;
+    background-color: blue;
+    padding: 6px;
+}
+.prueba-first-letter::first-letter {
+    color: red;
+    font-size: 34px;
+    text-decoration: underline;
+}
